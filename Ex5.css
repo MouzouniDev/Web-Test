@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    background-color:#d8aaff;
+}
+
+header{
+    background-image:url(image/backgroundimage.jpg);
+    height: 100vh;
+    background-image: cover;
+    background-size: 100%;
+}
+
+#MyLogo{
+    margin-left: 40px;
+    z-index: 2;
+    position: fixed;
+    height: 60px;
+    width: auto;
+}
+
+nav ul{
+    z-index: 1;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+}
+
+nav li{
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+}
+
+nav li:first-child{
+    margin-right: 60px;
+}
+
+#TextHeader{
+    font-size: 30px;
+    color: aliceblue;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.styleForHeaderAtHome{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+
+
+section{
+    height: 400vh;
+}
+
+#AboutMe{
+    z-index: 0;
+    height: 100vh;
+}
+
+#myPicture{
+    width: 180px;
+    height: auto;
+    position:relative;
+    left: calc(((100% - 180px) / 2) + 15px);
+    top: 120px;
+    border-radius: 180px;
+}
+
+div #hforAboutMe{    
+    text-align: center;
+    background-color: #ae50ff;    
+    width: 300px;
+    position:relative;
+    left: calc((100% - 300px) / 2) ;
+    top: 160px;
+    color: #5600a0;
+    border-radius: 20px;
+    padding: 6px;
+    border: 4px dashed #a317c4;
+}
+
+#AboutMe p{
+    margin: 0px 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 22px;
+    position:relative;
+    top: 200px;
+}
+
+#Skills{
+    height: 100vh;
+    font-size: 35px;
+}
+
+#animation{
+    width: 350px;
+    height: auto;
+    position: relative;
+    left: calc(((100% - 350px) / 2) );
+    top: 100px;
+    border-radius: 180px;
+}
+
+#tSkills{
+    width: 1000px;
+    position: relative;
+    top: 120px;
+    left: calc((100% - 1000px) / 2);
+}
+
+.thStyle{
+    color: darkorchid;
+    text-align: center;
+}
+
+#Media{
+    height: 100vh;
+}
+
+div #hmyMedia{
+    text-align: center;
+    background-color: #ae50ff;    
+    width: 300px;
+    position:relative;
+    left: calc((100% - 300px) / 2) ;
+    top: 160px;
+    color: #5600a0;
+    border-radius: 20px;
+    padding: 6px;
+    border: 4px dashed #a317c4;
+}
+
+#myChanel{
+    
+    position: relative;
+    top: 200px;
+    left: calc((100% - 560px) / 2);
+}
+
+#contactMe{
+    height: 100vh;
+}
+
+#imgForContactMe{
+    width: 451px;
+    height: auto;
+    position: relative;
+    left: calc((100% - 451px) / 2 );
+    top: 40px;
+}
+
+#question{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#btnEmailMe{
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 130px;
+    position: relative;
+    left: calc((100% - 130px) / 2);
+}
+
+#btnEmailMe:hover{
+    background-color: darkgray;
+}
+
+#myPhoneAndLocation{
+    position: relative;    
+    width: 170px;
+    left: calc((100% - 170px) / 2 );
+}
+
+footer{
+    height: 15vh;
+}
+
+.copyright{
+    text-align: center;
+}
+
+footer div div{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+footer div div img{
+    margin: 0px 10px;
+}
+
+footer > div{
+    width: 300px;
+    position: relative;
+    left: calc((100% - 300px) / 2);
+}
